@@ -8,6 +8,9 @@
 
 @import UIKit;
 
+#import <KGitTestCocoa/KGitViewController.h>
+
+
 @interface KViewController : UIViewController
 
 @end
