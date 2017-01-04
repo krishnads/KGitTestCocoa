@@ -10,7 +10,10 @@
 		159C4027445E738922EA279D670B5A4D /* Pods-KGitTestCocoa_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE2D595520E925FAA13ACDB56039981 /* Pods-KGitTestCocoa_Example-dummy.m */; };
 		1DCB9F51294F5075B24D0C38DACE6968 /* Pods-KGitTestCocoa_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C13D097E3B46DCE6E971D87E482140 /* Pods-KGitTestCocoa_Tests-dummy.m */; };
 		2135DAA72F08FBFEE139EA98A7B453D3 /* KGitTestCocoa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 397E352D1180E1BA0806FBEAFC193F94 /* KGitTestCocoa-dummy.m */; };
-		2E3E6D21B6F946BEE06E8456990D37EE /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = D56A1B60F1F8A68EA226A1EDECE67AAA /* ReplaceMe.m */; };
+		323DDDA21E1CF6BC0022D550 /* KGitViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 323DDDA01E1CF6BC0022D550 /* KGitViewController.h */; };
+		323DDDA31E1CF6BC0022D550 /* KGitViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 323DDDA01E1CF6BC0022D550 /* KGitViewController.h */; };
+		323DDDA41E1CF6BC0022D550 /* KGitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 323DDDA11E1CF6BC0022D550 /* KGitViewController.m */; };
+		323DDDA51E1CF6BC0022D550 /* KGitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 323DDDA11E1CF6BC0022D550 /* KGitViewController.m */; };
 		3C9F81886C6D8CD5079270E571EB66BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		3F3F1F34DCD0453BFDE43C999CED5376 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		43C619BD3C1510D24EC10FECCCC850D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
@@ -36,6 +39,8 @@
 		1CBD380187822F4FC8623F4E5446F342 /* Pods-KGitTestCocoa_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KGitTestCocoa_Example-umbrella.h"; sourceTree = "<group>"; };
 		2084E9779AF6FCDD85FAFACDFD277B2F /* Pods-KGitTestCocoa_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KGitTestCocoa_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		22BB1A829B0850758F194E4229E6B49C /* Pods-KGitTestCocoa_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KGitTestCocoa_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		323DDDA01E1CF6BC0022D550 /* KGitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGitViewController.h; sourceTree = "<group>"; };
+		323DDDA11E1CF6BC0022D550 /* KGitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGitViewController.m; sourceTree = "<group>"; };
 		3268C748DA7B67439D5B3E89528742D1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		331FADDBE6BB857067BBD0825C4BD4FF /* KGitTestCocoa-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KGitTestCocoa-umbrella.h"; sourceTree = "<group>"; };
 		3700FF5FAF3D048436A61C55D3726797 /* KGitTestCocoa-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KGitTestCocoa-prefix.pch"; sourceTree = "<group>"; };
@@ -58,7 +63,6 @@
 		B38A60CCCA04A5DFD2ECACD47C602F43 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B616859190F958BFC504F4FD00AD7A0C /* Pods-KGitTestCocoa_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KGitTestCocoa_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D56A1B60F1F8A68EA226A1EDECE67AAA /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		EDE2D595520E925FAA13ACDB56039981 /* Pods-KGitTestCocoa_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KGitTestCocoa_Example-dummy.m"; sourceTree = "<group>"; };
 		F8C13D097E3B46DCE6E971D87E482140 /* Pods-KGitTestCocoa_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KGitTestCocoa_Tests-dummy.m"; sourceTree = "<group>"; };
 		FE98589C015B8706BD3FF31D1AD2EA5C /* Pods-KGitTestCocoa_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KGitTestCocoa_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -158,7 +162,8 @@
 		8B99A0EF3FE0D5D82A4A747FCBB17A32 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				D56A1B60F1F8A68EA226A1EDECE67AAA /* ReplaceMe.m */,
+				323DDDA01E1CF6BC0022D550 /* KGitViewController.h */,
+				323DDDA11E1CF6BC0022D550 /* KGitViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -229,6 +234,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				323DDDA31E1CF6BC0022D550 /* KGitViewController.h in Headers */,
 				DC2336A931C62249F2F59AAD5F620A6B /* Pods-KGitTestCocoa_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,6 +243,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				323DDDA21E1CF6BC0022D550 /* KGitViewController.h in Headers */,
 				7FACC07EC1016053ECF2E9E9D20A0C0C /* KGitTestCocoa-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,6 +345,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				159C4027445E738922EA279D670B5A4D /* Pods-KGitTestCocoa_Example-dummy.m in Sources */,
+				323DDDA51E1CF6BC0022D550 /* KGitViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,7 +354,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2135DAA72F08FBFEE139EA98A7B453D3 /* KGitTestCocoa-dummy.m in Sources */,
-				2E3E6D21B6F946BEE06E8456990D37EE /* ReplaceMe.m in Sources */,
+				323DDDA41E1CF6BC0022D550 /* KGitViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

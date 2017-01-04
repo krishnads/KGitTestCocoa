@@ -7,6 +7,7 @@
 //
 
 #import "KViewController.h"
+#import <KGitTestCocoa/>
 
 @interface KViewController ()
 
