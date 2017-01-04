@@ -1,0 +1,6 @@
+framework module Pods_KGitTestCocoa_Example {
+  umbrella header "Pods-KGitTestCocoa_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

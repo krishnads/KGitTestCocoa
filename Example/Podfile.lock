@@ -1,0 +1,16 @@
+PODS:
+  - KGitTestCocoa (0.1.0)
+
+DEPENDENCIES:
+  - KGitTestCocoa (from `../`)
+
+EXTERNAL SOURCES:
+  KGitTestCocoa:
+    :path: ../
+
+SPEC CHECKSUMS:
+  KGitTestCocoa: e2d11fad9b513646aef4b3d5a0860d0ad7bdc4cc
+
+PODFILE CHECKSUM: 89149153dfd1358c6da12ae2b80d3e2d26fedb7f
+
+COCOAPODS: 1.0.1

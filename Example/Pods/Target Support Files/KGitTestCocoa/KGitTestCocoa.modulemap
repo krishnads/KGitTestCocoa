@@ -1,0 +1,6 @@
+framework module KGitTestCocoa {
+  umbrella header "KGitTestCocoa-umbrella.h"
+
+  export *
+  module * { export * }
+}

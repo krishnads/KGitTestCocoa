@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		159C4027445E738922EA279D670B5A4D /* Pods-KGitTestCocoa_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE2D595520E925FAA13ACDB56039981 /* Pods-KGitTestCocoa_Example-dummy.m */; };
+		1DCB9F51294F5075B24D0C38DACE6968 /* Pods-KGitTestCocoa_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C13D097E3B46DCE6E971D87E482140 /* Pods-KGitTestCocoa_Tests-dummy.m */; };
+		2135DAA72F08FBFEE139EA98A7B453D3 /* KGitTestCocoa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 397E352D1180E1BA0806FBEAFC193F94 /* KGitTestCocoa-dummy.m */; };
+		2E3E6D21B6F946BEE06E8456990D37EE /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = D56A1B60F1F8A68EA226A1EDECE67AAA /* ReplaceMe.m */; };
+		3C9F81886C6D8CD5079270E571EB66BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		3F3F1F34DCD0453BFDE43C999CED5376 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		43C619BD3C1510D24EC10FECCCC850D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		7FACC07EC1016053ECF2E9E9D20A0C0C /* KGitTestCocoa-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 331FADDBE6BB857067BBD0825C4BD4FF /* KGitTestCocoa-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1C5F42C319D59EFB515F75240130DD6 /* Pods-KGitTestCocoa_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 551BC59EBEF5415B913EF61DAC44ECC1 /* Pods-KGitTestCocoa_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC2336A931C62249F2F59AAD5F620A6B /* Pods-KGitTestCocoa_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CBD380187822F4FC8623F4E5446F342 /* Pods-KGitTestCocoa_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4418BD1470AF764F72EAC9E7A1AF2CC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73948FA710CFC1CA2C7D1CA8ACDFC849;
+			remoteInfo = KGitTestCocoa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09D793CC9BB5141E3EC8B16ED804835A /* Pods-KGitTestCocoa_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KGitTestCocoa_Example-resources.sh"; sourceTree = "<group>"; };
+		0A80DAC607027591934D025384E6BFF3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15714E4251A23B28B386913C163B0923 /* KGitTestCocoa.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KGitTestCocoa.modulemap; sourceTree = "<group>"; };
+		1CBD380187822F4FC8623F4E5446F342 /* Pods-KGitTestCocoa_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KGitTestCocoa_Example-umbrella.h"; sourceTree = "<group>"; };
+		2084E9779AF6FCDD85FAFACDFD277B2F /* Pods-KGitTestCocoa_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KGitTestCocoa_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		22BB1A829B0850758F194E4229E6B49C /* Pods-KGitTestCocoa_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KGitTestCocoa_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3268C748DA7B67439D5B3E89528742D1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		331FADDBE6BB857067BBD0825C4BD4FF /* KGitTestCocoa-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KGitTestCocoa-umbrella.h"; sourceTree = "<group>"; };
+		3700FF5FAF3D048436A61C55D3726797 /* KGitTestCocoa-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KGitTestCocoa-prefix.pch"; sourceTree = "<group>"; };
+		397E352D1180E1BA0806FBEAFC193F94 /* KGitTestCocoa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KGitTestCocoa-dummy.m"; sourceTree = "<group>"; };
+		42C09EE54BBD1798971204FA12D66B16 /* Pods-KGitTestCocoa_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KGitTestCocoa_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		551BC59EBEF5415B913EF61DAC44ECC1 /* Pods-KGitTestCocoa_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KGitTestCocoa_Tests-umbrella.h"; sourceTree = "<group>"; };
+		634BEE53C28405A63375256714D7B109 /* Pods-KGitTestCocoa_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KGitTestCocoa_Example-frameworks.sh"; sourceTree = "<group>"; };
+		68738DE6F03AF8DFAFEAD0A0BFB9EE54 /* Pods_KGitTestCocoa_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KGitTestCocoa_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CAE21F25C65495D18C742952E008C32 /* Pods-KGitTestCocoa_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KGitTestCocoa_Tests-resources.sh"; sourceTree = "<group>"; };
+		851A7C45ABD986A5C5507A672E7C8E80 /* Pods-KGitTestCocoa_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KGitTestCocoa_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		86B89BC6E42CF56E2A283D4B1D1DE27C /* Pods_KGitTestCocoa_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KGitTestCocoa_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C207BFCD7D3E67CC93E03F9C4CAD04D /* KGitTestCocoa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KGitTestCocoa.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99041705023968A7F184ADC75DA32D2B /* KGitTestCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KGitTestCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AC7469A4F7FFEA5A4EB8F04F9D877A7 /* Pods-KGitTestCocoa_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KGitTestCocoa_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9E211B6BA113253057C88E1BCA5665BC /* Pods-KGitTestCocoa_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KGitTestCocoa_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9E3DDE27546E344606FA7EBCAD744B05 /* Pods-KGitTestCocoa_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KGitTestCocoa_Example.modulemap"; sourceTree = "<group>"; };
+		9F98499E1708C26BE0184ADFEF204A20 /* Pods-KGitTestCocoa_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KGitTestCocoa_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A15B3CCE53E8AEAA2F5C46572EE13A4E /* Pods-KGitTestCocoa_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KGitTestCocoa_Tests.modulemap"; sourceTree = "<group>"; };
+		B38A60CCCA04A5DFD2ECACD47C602F43 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B616859190F958BFC504F4FD00AD7A0C /* Pods-KGitTestCocoa_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KGitTestCocoa_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D56A1B60F1F8A68EA226A1EDECE67AAA /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		EDE2D595520E925FAA13ACDB56039981 /* Pods-KGitTestCocoa_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KGitTestCocoa_Example-dummy.m"; sourceTree = "<group>"; };
+		F8C13D097E3B46DCE6E971D87E482140 /* Pods-KGitTestCocoa_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KGitTestCocoa_Tests-dummy.m"; sourceTree = "<group>"; };
+		FE98589C015B8706BD3FF31D1AD2EA5C /* Pods-KGitTestCocoa_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KGitTestCocoa_Tests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		102908D2B72C3B434847C9909FD871CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C619BD3C1510D24EC10FECCCC850D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F225B6DDA7C524DEA94FF156808F7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9F81886C6D8CD5079270E571EB66BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C8A54F2AA9FED50DFBFDBBD934A707 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3F1F34DCD0453BFDE43C999CED5376 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0241680D79B86856F34BB608FCC77977 /* KGitTestCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				8B99A0EF3FE0D5D82A4A747FCBB17A32 /* Classes */,
+			);
+			path = KGitTestCocoa;
+			sourceTree = "<group>";
+		};
+		0FCC51C9D46501D4547C85C98DD0B22B /* KGitTestCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				0241680D79B86856F34BB608FCC77977 /* KGitTestCocoa */,
+				91A6EA78D739100A7307C3BB0EA44944 /* Support Files */,
+			);
+			name = KGitTestCocoa;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		25D895F53C1614674FBC6423EB8023C0 /* Pods-KGitTestCocoa_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B38A60CCCA04A5DFD2ECACD47C602F43 /* Info.plist */,
+				A15B3CCE53E8AEAA2F5C46572EE13A4E /* Pods-KGitTestCocoa_Tests.modulemap */,
+				9F98499E1708C26BE0184ADFEF204A20 /* Pods-KGitTestCocoa_Tests-acknowledgements.markdown */,
+				42C09EE54BBD1798971204FA12D66B16 /* Pods-KGitTestCocoa_Tests-acknowledgements.plist */,
+				F8C13D097E3B46DCE6E971D87E482140 /* Pods-KGitTestCocoa_Tests-dummy.m */,
+				FE98589C015B8706BD3FF31D1AD2EA5C /* Pods-KGitTestCocoa_Tests-frameworks.sh */,
+				7CAE21F25C65495D18C742952E008C32 /* Pods-KGitTestCocoa_Tests-resources.sh */,
+				551BC59EBEF5415B913EF61DAC44ECC1 /* Pods-KGitTestCocoa_Tests-umbrella.h */,
+				9AC7469A4F7FFEA5A4EB8F04F9D877A7 /* Pods-KGitTestCocoa_Tests.debug.xcconfig */,
+				851A7C45ABD986A5C5507A672E7C8E80 /* Pods-KGitTestCocoa_Tests.release.xcconfig */,
+			);
+			name = "Pods-KGitTestCocoa_Tests";
+			path = "Target Support Files/Pods-KGitTestCocoa_Tests";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3E6A13A3A4BA523122FF28F424EF1762 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FCC51C9D46501D4547C85C98DD0B22B /* KGitTestCocoa */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				3E6A13A3A4BA523122FF28F424EF1762 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				DDA84B31FDABCA8F26789C43792ABAF5 /* Products */,
+				8E7F8B25F8F6D99B018788F740544469 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8B99A0EF3FE0D5D82A4A747FCBB17A32 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D56A1B60F1F8A68EA226A1EDECE67AAA /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8E7F8B25F8F6D99B018788F740544469 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD427A0800473D5CBFA6E78F1F850CC3 /* Pods-KGitTestCocoa_Example */,
+				25D895F53C1614674FBC6423EB8023C0 /* Pods-KGitTestCocoa_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		91A6EA78D739100A7307C3BB0EA44944 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A80DAC607027591934D025384E6BFF3 /* Info.plist */,
+				15714E4251A23B28B386913C163B0923 /* KGitTestCocoa.modulemap */,
+				8C207BFCD7D3E67CC93E03F9C4CAD04D /* KGitTestCocoa.xcconfig */,
+				397E352D1180E1BA0806FBEAFC193F94 /* KGitTestCocoa-dummy.m */,
+				3700FF5FAF3D048436A61C55D3726797 /* KGitTestCocoa-prefix.pch */,
+				331FADDBE6BB857067BBD0825C4BD4FF /* KGitTestCocoa-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KGitTestCocoa";
+			sourceTree = "<group>";
+		};
+		AD427A0800473D5CBFA6E78F1F850CC3 /* Pods-KGitTestCocoa_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3268C748DA7B67439D5B3E89528742D1 /* Info.plist */,
+				9E3DDE27546E344606FA7EBCAD744B05 /* Pods-KGitTestCocoa_Example.modulemap */,
+				9E211B6BA113253057C88E1BCA5665BC /* Pods-KGitTestCocoa_Example-acknowledgements.markdown */,
+				2084E9779AF6FCDD85FAFACDFD277B2F /* Pods-KGitTestCocoa_Example-acknowledgements.plist */,
+				EDE2D595520E925FAA13ACDB56039981 /* Pods-KGitTestCocoa_Example-dummy.m */,
+				634BEE53C28405A63375256714D7B109 /* Pods-KGitTestCocoa_Example-frameworks.sh */,
+				09D793CC9BB5141E3EC8B16ED804835A /* Pods-KGitTestCocoa_Example-resources.sh */,
+				1CBD380187822F4FC8623F4E5446F342 /* Pods-KGitTestCocoa_Example-umbrella.h */,
+				22BB1A829B0850758F194E4229E6B49C /* Pods-KGitTestCocoa_Example.debug.xcconfig */,
+				B616859190F958BFC504F4FD00AD7A0C /* Pods-KGitTestCocoa_Example.release.xcconfig */,
+			);
+			name = "Pods-KGitTestCocoa_Example";
+			path = "Target Support Files/Pods-KGitTestCocoa_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDA84B31FDABCA8F26789C43792ABAF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99041705023968A7F184ADC75DA32D2B /* KGitTestCocoa.framework */,
+				68738DE6F03AF8DFAFEAD0A0BFB9EE54 /* Pods_KGitTestCocoa_Example.framework */,
+				86B89BC6E42CF56E2A283D4B1D1DE27C /* Pods_KGitTestCocoa_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		100DF00E5B165CAD60F7FFB5F63FE3D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2336A931C62249F2F59AAD5F620A6B /* Pods-KGitTestCocoa_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467CC6DD9E111E8D3DF5C2366CE8E3E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FACC07EC1016053ECF2E9E9D20A0C0C /* KGitTestCocoa-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98FD6705610631CC6CF8B1749184F63D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1C5F42C319D59EFB515F75240130DD6 /* Pods-KGitTestCocoa_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3E44C60B2FCB36E0A8AA136ED67DC755 /* Pods-KGitTestCocoa_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56213DC30A9CDE3AEC3F10AF98F4A648 /* Build configuration list for PBXNativeTarget "Pods-KGitTestCocoa_Tests" */;
+			buildPhases = (
+				A1C60FEE4A3D7B3021CF4647923E4DF3 /* Sources */,
+				102908D2B72C3B434847C9909FD871CB /* Frameworks */,
+				98FD6705610631CC6CF8B1749184F63D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KGitTestCocoa_Tests";
+			productName = "Pods-KGitTestCocoa_Tests";
+			productReference = 86B89BC6E42CF56E2A283D4B1D1DE27C /* Pods_KGitTestCocoa_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		521F8010098BE38D7CDFCEE700361FAB /* Pods-KGitTestCocoa_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7380E7003444B313B66700ECA2C0F3F /* Build configuration list for PBXNativeTarget "Pods-KGitTestCocoa_Example" */;
+			buildPhases = (
+				37C6AD9288A7C74B7202B5C21FCAF797 /* Sources */,
+				47F225B6DDA7C524DEA94FF156808F7F /* Frameworks */,
+				100DF00E5B165CAD60F7FFB5F63FE3D7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9293DDFB1776A73E9F2DB3CBCF821A43 /* PBXTargetDependency */,
+			);
+			name = "Pods-KGitTestCocoa_Example";
+			productName = "Pods-KGitTestCocoa_Example";
+			productReference = 68738DE6F03AF8DFAFEAD0A0BFB9EE54 /* Pods_KGitTestCocoa_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		73948FA710CFC1CA2C7D1CA8ACDFC849 /* KGitTestCocoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 810181C6CC2E04A194D559C1FEB05803 /* Build configuration list for PBXNativeTarget "KGitTestCocoa" */;
+			buildPhases = (
+				419FFD728390537A4D7298D4E8616FA7 /* Sources */,
+				94C8A54F2AA9FED50DFBFDBBD934A707 /* Frameworks */,
+				467CC6DD9E111E8D3DF5C2366CE8E3E6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KGitTestCocoa;
+			productName = KGitTestCocoa;
+			productReference = 99041705023968A7F184ADC75DA32D2B /* KGitTestCocoa.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DDA84B31FDABCA8F26789C43792ABAF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73948FA710CFC1CA2C7D1CA8ACDFC849 /* KGitTestCocoa */,
+				521F8010098BE38D7CDFCEE700361FAB /* Pods-KGitTestCocoa_Example */,
+				3E44C60B2FCB36E0A8AA136ED67DC755 /* Pods-KGitTestCocoa_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37C6AD9288A7C74B7202B5C21FCAF797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				159C4027445E738922EA279D670B5A4D /* Pods-KGitTestCocoa_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		419FFD728390537A4D7298D4E8616FA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2135DAA72F08FBFEE139EA98A7B453D3 /* KGitTestCocoa-dummy.m in Sources */,
+				2E3E6D21B6F946BEE06E8456990D37EE /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1C60FEE4A3D7B3021CF4647923E4DF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DCB9F51294F5075B24D0C38DACE6968 /* Pods-KGitTestCocoa_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9293DDFB1776A73E9F2DB3CBCF821A43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KGitTestCocoa;
+			target = 73948FA710CFC1CA2C7D1CA8ACDFC849 /* KGitTestCocoa */;
+			targetProxy = 4418BD1470AF764F72EAC9E7A1AF2CC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E7D6269A2BB2983D892D03381AFB00A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C207BFCD7D3E67CC93E03F9C4CAD04D /* KGitTestCocoa.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KGitTestCocoa/KGitTestCocoa-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KGitTestCocoa/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KGitTestCocoa/KGitTestCocoa.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = KGitTestCocoa;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		69EC03F27F46BDFDE834E870C3807B8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 851A7C45ABD986A5C5507A672E7C8E80 /* Pods-KGitTestCocoa_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KGitTestCocoa_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KGitTestCocoa_Tests/Pods-KGitTestCocoa_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KGitTestCocoa_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7CBF94565CAE97A6A01D850A41B8865E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B616859190F958BFC504F4FD00AD7A0C /* Pods-KGitTestCocoa_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KGitTestCocoa_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KGitTestCocoa_Example/Pods-KGitTestCocoa_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KGitTestCocoa_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CBC7CAE47E64FAC671C210299B2DDB38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AC7469A4F7FFEA5A4EB8F04F9D877A7 /* Pods-KGitTestCocoa_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KGitTestCocoa_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KGitTestCocoa_Tests/Pods-KGitTestCocoa_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KGitTestCocoa_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D8CD9D2F5421930EF4AE03F5BC8B7757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C207BFCD7D3E67CC93E03F9C4CAD04D /* KGitTestCocoa.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KGitTestCocoa/KGitTestCocoa-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KGitTestCocoa/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KGitTestCocoa/KGitTestCocoa.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = KGitTestCocoa;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F1AA57039510D432C4DC6C9618BBF42B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22BB1A829B0850758F194E4229E6B49C /* Pods-KGitTestCocoa_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KGitTestCocoa_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KGitTestCocoa_Example/Pods-KGitTestCocoa_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KGitTestCocoa_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56213DC30A9CDE3AEC3F10AF98F4A648 /* Build configuration list for PBXNativeTarget "Pods-KGitTestCocoa_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBC7CAE47E64FAC671C210299B2DDB38 /* Debug */,
+				69EC03F27F46BDFDE834E870C3807B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		810181C6CC2E04A194D559C1FEB05803 /* Build configuration list for PBXNativeTarget "KGitTestCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8CD9D2F5421930EF4AE03F5BC8B7757 /* Debug */,
+				2E7D6269A2BB2983D892D03381AFB00A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7380E7003444B313B66700ECA2C0F3F /* Build configuration list for PBXNativeTarget "Pods-KGitTestCocoa_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1AA57039510D432C4DC6C9618BBF42B /* Debug */,
+				7CBF94565CAE97A6A01D850A41B8865E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
