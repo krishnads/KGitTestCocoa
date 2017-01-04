@@ -10,4 +10,6 @@
 
 @interface KGitViewController : UIViewController
 
+- (void)placeALabelOnVC;
+
 @end

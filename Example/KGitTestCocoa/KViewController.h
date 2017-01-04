@@ -10,7 +10,6 @@
 
 #import <KGitTestCocoa/KGitViewController.h>
 
-
-@interface KViewController : UIViewController
+@interface KViewController : KGitViewController
 
 @end
