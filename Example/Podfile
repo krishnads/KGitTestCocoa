@@ -3,7 +3,7 @@ use_frameworks!
 target 'KGitTestCocoa_Example' do
   pod 'KGitTestCocoa', :path => '../'
 
-  target 'KGitTestCocoa_Tests' do
+target 'KGitTestCocoa_Tests' do
     inherit! :search_paths
 
     
